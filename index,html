@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amber Mehak | Portfolio</title>
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0d0d0d;
+            color: #fff;
+        }
+        a { text-decoration: none; }
+
+        header {
+            text-align: center;
+            padding: 120px 20px;
+            background: linear-gradient(180deg, #000, #0e1a22);
+        }
+        header h1 span { color: #00e5ff; }
+        header p { opacity: .8; }
+        .hero-btn {
+            display: inline-block;
+            margin-top: 22px;
+            padding: 12px 30px;
+            background: #00e5ff;
+            color: #000;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: .3s;
+        }
+        .hero-btn:hover {
+            background: #00b6cc;
+            transform: scale(1.07);
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        h2 {
+            color: #00e5ff;
+            border-bottom: 2px solid #0e1a22;
+            padding-bottom: 8px;
+        }
+
+        ul { line-height: 1.8em; }
+
+        /* ICON BULLETS */
+        li i {
+            color: #00e5ff;
+            margin-right: 8px;
+        }
+
+        /* CONTACT */
+        .contact a {
+            color: #00e5ff;
+        }
+
+        /* SECTIONS VISUAL */
+        .card {
+            background: #111;
+            padding: 20px;
+            margin: 12px 0;
+            border-radius: 6px;
+            border-left: 3px solid #00e5ff;
+            transition: .3s;
+        }
+        .card:hover {
+            transform: translateX(5px);
+            background: #191919;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #000;
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO -->
+    <header>
+        <h1>Hi, I’m <span>Amber Mehak</span></h1>
+        <p>Frontend Web Developer | Cloud Computing Learner | Creative Designer</p>
+        <a href="#contact" class="hero-btn"><i class="fa-solid fa-paper-plane"></i> Hire Me</a>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2><i class="fa-solid fa-user"></i> About Me</h2>
+        <p>
+            I’m a passionate Frontend Web Developer, Graphic Designer, and Cloud Computing Learner from Sindh, Pakistan.<br><br>
+            I am studying Public Administration and enrolled in
+            <strong>PITB Cloud Computing Course Phase-II (Continue)</strong>.
+        </p>
+        <h3>What I Value</h3>
+        <ul>
+            <li><i class="fa-solid fa-code"></i> Good design & clean code</li>
+            <li><i class="fa-solid fa-lightbulb"></i> Creativity & problem-solving</li>
+            <li><i class="fa-solid fa-graduation-cap"></i> Continuous learning</li>
+            <li><i class="fa-solid fa-clock"></i> Timely delivery & professionalism</li>
+        </ul>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2><i class="fa-solid fa-laptop-code"></i> Skills</h2>
+
+        <div class="card">
+            <strong>Cloud Computing</strong>
+            <ul>
+                <li><i class="fa-solid fa-cloud"></i> AWS S3 — Static Website Hosting</li>
+                <li><i class="fa-solid fa-shield-halved"></i> AWS IAM — Secure Access Control</li>
+                <li><i class="fa-solid fa-server"></i> EC2 — Virtual Machine Setup</li>
+                <li><i class="fa-solid fa-globe"></i> Global availability & scalability</li>
+                <li><i class="fa-solid fa-circle-nodes"></i> PITB Cloud Computing Phase-II</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <strong>Web Development</strong>
+            <ul>
+                <li><i class="fa-brands fa-html5"></i> HTML5, CSS3, JavaScript</li>
+                <li><i class="fa-solid fa-mobile-screen"></i> Responsive Design</li>
+                <li><i class="fa-solid fa-palette"></i> UI/UX Basics</li>
+                <li><i class="fa-brands fa-git-alt"></i> Git & GitHub</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <strong>Graphic Designing</strong>
+            <ul>
+                <li><i class="fa-solid fa-pen-nib"></i> Logos & Branding</li>
+                <li><i class="fa-solid fa-image"></i> Social Media Graphics</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2><i class="fa-solid fa-diagram-project"></i> Projects</h2>
+        <ul>
+            <li class="card"><strong>Portfolio Website</strong> – Cloud-powered personal portfolio.</li>
+            <li class="card"><strong>Brand Design Kit</strong> – Multiple brand assets.</li>
+            <li class="card"><strong>Student Portal UI</strong> – Modern UI in Figma.</li>
+        </ul>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+        <h2><i class="fa-solid fa-briefcase"></i> Services</h2>
+        <ul>
+            <li><i class="fa-solid fa-globe"></i> Website Design & Development</li>
+            <li><i class="fa-solid fa-cloud-arrow-up"></i> AWS S3 / Netlify Deployment</li>
+            <li><i class="fa-solid fa-pen-fancy"></i> Logo & Branding Design</li>
+            <li><i class="fa-solid fa-bullhorn"></i> Social Media Content Design</li>
+        </ul>
+        <p>Let’s create something amazing together! 🚀</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h2><i class="fa-solid fa-envelope"></i> Contact Me</h2>
+        <p>Email: <a href="mailto:mehakjatoi4@gmail.com">mehakjatoi4@gmail.com</a></p>
+        <p>Location: Pakistan</p>
+        <p>GitHub / LinkedIn Coming Soon</p>
+    </section>
+
+    <footer>© 2025 Amber Mehak | All Rights Reserved</footer>
+
+</body>
+</html>
